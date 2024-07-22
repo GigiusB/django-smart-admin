@@ -4,7 +4,7 @@ import django
 import pytest
 from django.urls import reverse
 
-pytest.DJANGO41 = django.VERSION[0:2] == (4, 1)
+pytest.DJANGO41_plus = django.VERSION[0:2] >= (4, 1)
 
 
 def pytest_configure(config):

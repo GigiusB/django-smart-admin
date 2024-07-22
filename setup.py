@@ -38,7 +38,7 @@ setup(
                 'django-picklefield',
                 'bump2version',
                 'factory-boy',
-                'psycopg2',
+                'psycopg2-binary',
                 'tox',
                 'flake8',
                 'isort',
